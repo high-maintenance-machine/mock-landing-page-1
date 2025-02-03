@@ -10,7 +10,6 @@ body {
     background-color: black;
     color: white;
     font-family: "Roboto", serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     font-variation-settings:
@@ -29,22 +28,24 @@ body {
 
 .blue-btn {
     background-color: var(--light-blurple);
-    color: white;
-}
-
-.blue-btn, #brand-btn {
     text-decoration: none;
     font-weight: 600;
     padding: 10px;
     margin: 50px;
     border-radius: 20px;
-    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 20px;
 }
 
-
-#brand-btn {
-    background-color: var(--dark-grey);
-    color: white;
+.btn-gradient-2 {
+    background: linear-gradient(var(--dark-blurple), var(--dark-blurple)) padding-box,
+        linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
 }
 
 h1 {
@@ -95,4 +96,9 @@ i {
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+
+h3,
+.card-p {
+    margin-left: 10px;
 }
