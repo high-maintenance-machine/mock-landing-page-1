@@ -32,6 +32,10 @@ body {
     align-items: center;
 }
 
+#logo {
+    margin-left: 15px;
+}
+
 #logo, .blue-heading {
     font-size: 2em;
     background: -webkit-linear-gradient(var(--light-blurple), var(--dark-blurple));
