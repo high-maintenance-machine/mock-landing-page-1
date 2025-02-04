@@ -26,6 +26,20 @@ body {
     margin: 50px;
 }
 
+.top-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo, .blue-heading {
+    font-size: 2em;
+    background: -webkit-linear-gradient(var(--light-blurple), var(--dark-blurple));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .blue-btn {
     background-color: var(--light-blurple);
     text-decoration: none;
@@ -53,7 +67,6 @@ h1 {
 }
 
 .blue-heading {
-    color: #5900ff;
     margin-top: 3%;
 }
 
@@ -80,10 +93,13 @@ p {
 .card-p {
     color: var(--light-grey);
     font-weight: 600;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 i {
     color: white;
+    font-size: 1.2em;
 }
 
 .icon-container {
@@ -92,13 +108,15 @@ i {
     background-color: var(--light-blurple);
     background-image: linear-gradient(to right, var(--light-blurple), var(--dark-blurple));
     border-radius: 15%;
+    border: 1px solid var(--dark-blurple);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
 }
 
-h3,
-.card-p {
+
+.card-header {
+    margin-top: 35px;
     margin-left: 10px;
 }
